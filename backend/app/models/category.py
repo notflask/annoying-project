@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-from math import prod
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from ..database import Base
